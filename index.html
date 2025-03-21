@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>放置挖矿游戏</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div class="container">
+        <h1>矿洞探险</h1>
+        
+        <!-- 资源显示 -->
+        <div id="resources">
+            <div>⛏️ 铁镐: <span id="pickaxe">0</span></div>
+            <div>💰 金币: <span id="gold">0</span></div>
+            <div>⛏ 矿石: <span id="ore">0</span></div>
+        </div>
+
+        <!-- 主要操作区 -->
+        <div class="action-panel">
+            <button onclick="mine()">手动挖矿</button>
+            <button onclick="buyPickaxe()">购买铁镐 (10金币)</button>
+        </div>
+
+        <!-- 自动挖矿状态 -->
+        <div id="auto-status">自动挖矿: 关闭</div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
