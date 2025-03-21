@@ -1,3 +1,4 @@
+/* game.css */
 body {
     font-family: Arial, sans-serif;
     max-width: 800px;
@@ -39,8 +40,6 @@ button:hover {
     border-radius: 5px;
 }
 
-<!-- 滑块 -->
-<style>
 #slider-track {
     width: 300px;
     height: 30px;
@@ -66,13 +65,12 @@ button:hover {
     height: 100%;
     background: #2ecc71;
     position: absolute;
-    left: 120px; /* 居中显示 */
+    left: 120px;
     opacity: 0.5;
 }
 
 #mining-result {
     margin-top: 10px;
     min-height: 20px;
+    color: #f1c40f;
 }
-</style>
-
